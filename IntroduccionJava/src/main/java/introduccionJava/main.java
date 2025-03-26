@@ -1,6 +1,8 @@
 package introduccionJava;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.PrintStream;
 
 public class main {
@@ -27,5 +29,12 @@ public class main {
 			e.printStackTrace();
 			}
 		psErr.println("Me duermooooo");
+	ps.printf("La variable palabra: %s /n", palabra)
+	
+	InputStreamReader isr = new InputStreamReader(System.in);
+	BufferedReader br = new BufferedReader( isr);
+		
 	}
 }
+
+	
