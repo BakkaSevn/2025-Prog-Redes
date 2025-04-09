@@ -21,6 +21,8 @@ public class main {
 		
 		ps.println("Hola Gonzalito");
 		int linea;
+		String palabra;
+		palabra = "gonza" ;
 		try{
 			while((linea = System.in.read()) != 13){
 				ps.print((char)linea);
@@ -29,7 +31,7 @@ public class main {
 			e.printStackTrace();
 			}
 		psErr.println("Me duermooooo");
-	ps.printf("La variable palabra: %s /n", palabra)
+		ps.printf("La variable palabra: %s /n", palabra);
 	
 	InputStreamReader isr = new InputStreamReader(System.in);
 	BufferedReader br = new BufferedReader( isr);
